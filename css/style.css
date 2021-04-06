@@ -1,0 +1,67 @@
+/* Este é o CSS do site Tuts + Town*/
+
+body {
+    font-family: 'Open Sans', sans-serif; /* Fonte do Google Fonts */
+    background-color: #faf8da;
+    margin: 0;
+}
+
+/* Estilo do meu header */
+header {
+    text-align: center; /* alinho todo o header centralizado */
+}
+
+h1 {
+    font-size: 70px;
+    color: #205d76;
+}
+
+.header {
+    width: 650px;
+}
+
+/* Início do estilo da section */
+article {
+    display: flex;      /* Torna o conteúdo do elemento flexível, colocar um elemento do lado do outro */
+    margin: 50px auto;  /* Considerar a largura do elemento, e centralizá-lo na janela do navegador */
+    width: 450px;    
+}
+
+.article {
+    width: 200px;
+}
+
+div {
+    margin-left: 30px; /* Essa margem afasta a imagem da div */
+}
+
+h2 {
+    font-size: 30px;
+    color: #205d76;
+}
+
+ul {
+    color: #ffc122;
+    padding-left: 15px; /* Padding para alinhar a lista com o texto acima */
+}
+
+li {
+    margin-bottom: 10px; /* Coloco um pouco de espaço entre os itens */
+}
+
+a {
+    font-size: 20px;
+    color: #ea6e2f;
+}
+
+/* Footer */
+footer {
+    background-color: #ffc122;
+    text-align: center;
+    padding: 2px;
+}
+
+p {
+    color: #ffffff;
+    font-size: 20px
+}
